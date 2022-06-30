@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Heavy.eot');
+    src: url('./fonts/SFUIDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Heavy.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Heavy.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Bold.eot');
+    src: url('./fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Bold.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Black.eot');
+    src: url('./fonts/SFUIDisplay-Black.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Black.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Black.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Ultralight.eot');
+    src: url('./fonts/SFUIDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Ultralight.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Ultralight.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Semibold.eot');
+    src: url('./fonts/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Semibold.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Semibold.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Light.eot');
+    src: url('./fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Light.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Light.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Thin.eot');
+    src: url('./fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Thin.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Thin.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Medium.eot');
+    src: url('./fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Medium.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('./fonts/SFUIDisplay-Regular.eot');
+    src: url('./fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+    url('./fonts/SFUIDisplay-Regular.woff') format('woff'),
+    url('./fonts/SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF UI Display';
+}
+body{
+    background: #16171B;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+ul li, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 16px 0;
+}
+.logo{
+    width: 188px;
+}
+.registration_block{
+    max-width: 870px;
+    margin: 0 auto;
+}
+h2.section_title{
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+section{
+    padding: 50px 0;
+}
+.form-label{
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.form-control{
+    background: #2A3039;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    border: 1px solid #2A3039;
+    min-height: 55px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.form-control:focus {
+    color: #FFFFFF;
+    background: #2A3039;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.12);
+    border-color: #2A3039;
+    outline: 0;
+}
+.form-group{
+    margin-bottom: 9px;
+}
+.form-label a{
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F9AFF;
+}
+.dbl_input{
+    display: flex;
+    justify-content: space-between;
+}
+.dbl_input .form-group{
+    width: 418px;
+}
+.btn.register-btn{
+    background: radial-gradient(274.32% 436.67% at 84.02% -9.46%, #FFFFFF 0%, #44444C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 40px;
+    padding: 20px 65px 17px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #16171B;
+    margin-right: 16px;
+}
+.form-group p{
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+.form-group p a{
+    color: #4F9AFF;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.registration_form{
+    margin-top: 30px;
+}
+.verify{
+margin-top: 50px;
+}
+.verify p{
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.verify p:last-child{
+    margin-top: 50px;
+}
+.section_title.text-left{
+    text-align: left;
+}
